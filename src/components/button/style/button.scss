@@ -1,0 +1,32 @@
+@import '../../../style/_variable.scss';
+.button-favourite {
+  border-radius: 14px;
+  border: 1px solid #fff;
+  background: linear-gradient(
+    99deg,
+    #fff 3.36%,
+    rgba(255, 255, 255, 0) 238.16%
+  );
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  .heart-icon g path {
+    stroke: $purple;
+
+    font-size: 20px;
+  }
+}
+.button-watch-now {
+  background: $purple;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  a {
+    color: #fff;
+  }
+}

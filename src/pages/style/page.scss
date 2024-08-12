@@ -1,0 +1,42 @@
+@import '../../style/_variable.scss';
+.content-page {
+  padding: 20px 30px;
+}
+.country {
+  &-title {
+  }
+}
+
+.detail {
+  &-page {
+    display: flex;
+    
+  }
+  &-image {
+    width: 534px;
+    height: 430px;
+    border: 1px solid #969696;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 60px;
+    &-src {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-info {
+    flex: 1;
+    color: #fff;
+  }
+  &-info-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+  &-info-overview {
+  }
+  &-info-desc {
+  }
+}
+
